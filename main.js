@@ -70,6 +70,23 @@ function teclapresionada(f) {
         nuevaimagen("casa 2.png")
         console.log("c")
     }
+    if (keyPressed=="68"){
+        nuevaimagen("parque.png")
+        console.log("d")
+    }
+    if (keyPressed=="69"){
+        nuevaimagen("edificio.png")
+        console.log("e")
+    }
+    if (keyPressed=="70"){
+        nuevaimagen("edificio.png")
+        nuevaimagen("parque.png")
+        console.log("f")
+    }
+    if (keyPressed=="71"){
+        nuevaimagen("fondo.jpg")
+        console.log("f")
+    }
 }
 function arriba () {
     if (ultima_posicion_de_y >= 0){
